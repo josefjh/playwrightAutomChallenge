@@ -1,2 +1,2 @@
 # weekAutoChallenges
-Weekly Automation Challenges
+Weekly Automation Challenges using PlayWright
