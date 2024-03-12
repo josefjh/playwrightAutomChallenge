@@ -1,0 +1,16 @@
+{
+  "name": "playwrightautomchallenge",
+  "version": "1.0.0",
+  "description": "Automation Challenge Apply-Digital for booking.com",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium",
+	  "tests:firefox": "playwright test --config=playwright.config.ts --project=Firefox"
+  },
+  "author": "Jimenez Hernandez Jose F",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.42.1",
+    "prettier": "^3.2.5"
+  }
+}

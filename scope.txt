@@ -1,0 +1,15 @@
+Objective: Write an automated test script using Playwright that accomplishes the following tasks on Booking.com:
+Navigate and Search for Accommodations:
+Open the browser and navigate to the Booking.com homepage (https://www.booking.com).
+Find the search input field and enter a destination of your choice (e.g., "New York").
+Select check-in and check-out dates. Ensure these dates are at least one month from today's date to avoid availability issues.
+Submit the search.
+Filter Search Results:
+Once on the search results page, apply a filter to narrow down the results. For example, you could filter by "Star rating" and select "5 stars".
+Wait for the page to reload with the filtered results.
+Select an Accommodation:
+From the filtered search results, select the first available accommodation to view its details.
+Validate that you are navigated to the accommodation details page, and the page includes the accommodation's name, rating, and amenities.
+Check Availability:
+On the accommodation details page, look for the "Check Availability" button and click it.
+Validate that you are shown available rooms or apartments. Check for the presence of price information for the available options.
